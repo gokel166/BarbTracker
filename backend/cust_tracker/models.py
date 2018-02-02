@@ -7,4 +7,3 @@ class CustTracker(models.Model):
     first_name = models.CharField(max_length=50, null=False)
     last_name = models.CharField(max_length=50)
     barber_id = models.ForeignKey(User, related_name='host_set')
-    appointment
